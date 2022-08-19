@@ -1,4 +1,23 @@
-.headr{	
-	color: #008B8B;
-	fon-size: 24px;
+.header{
+	width: 960px;
+	background: #6495ED;
+	color: #0000FF;
+	font-size: 16px;
+	margin: auto;
+	padding: 10px;
+}
+.h1{
+	font-size: 24px;
+	color: #7FFF00;
+}
+.link{
+	color: #0000FF;
+}
+.link:hover {
+	color: #DC143C;
+	text-decoration: none;
+}
+.txt{
+	color: #000000;
+	text-decoration: underline;
 }
