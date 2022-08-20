@@ -35,13 +35,14 @@
 	display: block;
 	margin: auto;
 	width: 400px;
-	background: Cornsilk;
+	background: Linen;
 	border: 1px solid;
 	font-size:14px;
 	padding: 10px;
 }
 .feedback{
 	padding-bottom: 40px;
+	background: #FFFAFA;
 }
 .form{
 	text-align: center;
@@ -53,4 +54,22 @@
 	border: 0;
 	padding: 10px;
 	color: white;
+}
+.window{
+	width: 500px;
+	background: Lavender;
+	font-size:15px;
+	margin: 12px;
+	border: 1px solid;
+	border-radius: 25px;
+	padding: 50px;
+	color: white;
+}
+.option{
+	background: Black;
+	color: white;
+}
+.sel{
+	background: LightSteelBlue;
+	margin: auto;
 }
