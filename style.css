@@ -1,14 +1,29 @@
+body{
+	position: relative;
+	height: 100vh;
+}
+body::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: url("bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 0.8;
+}
 .header{
-	background: #E0FFFF;
-	margin: 20px auto;
-	border: 5px solid #6495ED;
+	margin: 1px auto;
 }
 .h1{
-	font-size: 24px;
-	color: 	#6A5ACD;
+	font-size: 50px;
+	color: 	#cc0033;
 }
 .link{
 	color: #0000FF;
+	
+	
 }
 .link:hover {
 	color: #DC143C;
@@ -16,16 +31,19 @@
 }
 .txt{
 	color: #000000;
-	text-decoration: underline;
+	font-size: 30px;
+	margin-left: 150px;
 }
 .feedback{
 	margin: 20px auto;
 	border: 4px solid #6495ED;
 }
 .h2{
-	font-size: 80px;
+	font-size: 44px;
 }
 .container{
+	position: relative;
+	z-index: 1;
 	width: 960px;
 	color: #0000FF;
 	font-size: 16px;
@@ -72,4 +90,7 @@
 .sel{
 	background: LightSteelBlue;
 	margin: auto;
+}
+.beatser{
+	margin-right: 100px;
 }
